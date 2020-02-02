@@ -1,3 +1,21 @@
+workspaces-default-settings (3.0.3ubuntu3) eoan; urgency=medium
+
+  * NEW VERSION
+
+ -- Herculean Inc <hello@hercules.dev>  Sun, 02 Feb 2020 10:36:59 -0600
+
+workspaces-default-settings (3.0.3ubuntu2) eoan; urgency=medium
+
+  * NEW VERSION
+
+ -- Herculean Inc <hello@hercules.dev>  Sun, 02 Feb 2020 10:36:23 -0600
+
+pop-default-settings (3.0.3ubuntu1) eoan; urgency=medium
+
+  * NEW VERSION
+
+ -- Herculean Inc <hello@hercules.dev>  Sun, 02 Feb 2020 10:36:15 -0600
+
 pop-default-settings (3.0.3) eoan; urgency=medium
 
   * Set sound theme

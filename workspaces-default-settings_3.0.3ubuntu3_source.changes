@@ -1,0 +1,45 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Sun, 02 Feb 2020 10:36:59 -0600
+Source: workspaces-default-settings
+Architecture: source
+Version: 3.0.3ubuntu3
+Distribution: eoan
+Urgency: medium
+Maintainer: Jeremy Soller <jeremy@system76.com>
+Changed-By: Herculean Inc <hello@hercules.dev>
+Changes:
+ workspaces-default-settings (3.0.3ubuntu3) eoan; urgency=medium
+ .
+   * NEW VERSION
+Checksums-Sha1:
+ 75e616ea6048abd4e53d8a5cf2682f2ae55f6e41 1653 workspaces-default-settings_3.0.3ubuntu3.dsc
+ 7eb0752f94f2f83a28f2d8346e05c519ec67352a 40548 workspaces-default-settings_3.0.3ubuntu3.tar.xz
+ 51b4c2ea542786a1a344c5d14da43be1715c49a8 6196 workspaces-default-settings_3.0.3ubuntu3_source.buildinfo
+Checksums-Sha256:
+ 56c8befc60d6483d62e360e36560995ec3bcd01bd02e7f4c9edc574bd1a25c32 1653 workspaces-default-settings_3.0.3ubuntu3.dsc
+ aeb62f6ce7aabb0f1e10e5adbe92ce26073549657a259b47cdbbb1b9a7e8923e 40548 workspaces-default-settings_3.0.3ubuntu3.tar.xz
+ 99f106aee68e87c6867f9842c7e2a08203b9fb62609b2a7816ac59fb78ed85a4 6196 workspaces-default-settings_3.0.3ubuntu3_source.buildinfo
+Files:
+ b36ecf3e6bf243ccdea0800c32981450 1653 x11 optional workspaces-default-settings_3.0.3ubuntu3.dsc
+ 5946bfbe011eae7fe4a0de2b24834350 40548 x11 optional workspaces-default-settings_3.0.3ubuntu3.tar.xz
+ 4df5eb36abca652026a0a58043f540d6 6196 x11 optional workspaces-default-settings_3.0.3ubuntu3_source.buildinfo
+
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCgAdFiEE1mN7EaBKs8vNXODr4dwtItTbNMgFAl42+qwACgkQ4dwtItTb
+NMjiwA//cwe4uQHk9zeh+KGonI3AM0UxjfOvWEvmfi6rhc1QV+X1DdtguitrHhky
+FTZHGKbsp90fG+lKLcXY7CARJohC6pORrxxMseLdgMOKQzytM3bE7+cNopCbssaj
+WyiO5jYdoBDcmR1MVY/FbtpjjmAhQICw3IAbFc+aF2nqad+MN3cOUw8rf2tYrffB
+RtqQ4XQL48bXIdJ0g3umYarXHoGMwN4Pgjh7RqFK2ma0/EEgyYBmcPFU2IaW1vrq
+8hRueQ7ksYCrXha/vUMo/nqBf/HqgxX4yX1mfZ/oUbK0qOsHGZoFbY6nF3eoPQe9
+iRwnKvmooaxOkd5jzpoz5vD/grcOTpzf37/mYhKpjdiPMZFCL/sDN4bP0BFzVzo5
+uk/bHRFYSsXUx2xYapmsHkVNxQvwnRV3cHjGjct9ttXg16rn/71kxdMe4l77BDmI
+oEaECxQJ6qfS8EgChD5//64X5Xvmk05XM9cSiXZFpxbaRWrbVWzkmDH4vOl1hjuT
+idBzuss4Dlc2EV8BlgEpA2pw6EKxeeCFdwsoGLT8DVMzChsVmLoU1uVKrdRAFSxI
+HhLPDaHW2C3+YjWLBBkB95wMl18/fkRMjS0oAbGPrAzJrzt1myIjXAf5QI13FvdN
+ZJrOsu8Eo9cquNjRxkirRwn4aGFvlwnKjEs1HhUbrir0iUMizVs=
+=Mnr8
+-----END PGP SIGNATURE-----
