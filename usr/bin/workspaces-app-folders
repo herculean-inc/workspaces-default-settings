@@ -2,11 +2,11 @@
 
 GTK_THEME="$(gsettings get org.gnome.desktop.interface gtk-theme)"
 case "$GTK_THEME" in
-"'Pop-light'" | "'Pop-slim'" | "'Pop-slim-light'" )
+"'Workspaces-light'" | "'Workspaces-slim'" | "'Workspaces-slim-light'" )
     gsettings set org.gnome.desktop.interface gtk-theme "'Pop'"
     ;;
-"'Pop-slim-dark'" )
-    gsettings set org.gnome.desktop.interface gtk-theme "'Pop-dark'"
+"'Workspaces-slim-dark'" )
+    gsettings set org.gnome.desktop.interface gtk-theme "'Workspaces-dark'"
     ;;
 esac
 
