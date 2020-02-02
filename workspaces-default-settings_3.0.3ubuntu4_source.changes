@@ -1,0 +1,45 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Sun, 02 Feb 2020 10:39:56 -0600
+Source: workspaces-default-settings
+Architecture: source
+Version: 3.0.3ubuntu4
+Distribution: eoan
+Urgency: medium
+Maintainer: Jeremy Soller <jeremy@system76.com>
+Changed-By: Herculean Inc <hello@hercules.dev>
+Changes:
+ workspaces-default-settings (3.0.3ubuntu4) eoan; urgency=medium
+ .
+   * NEW VERSION
+Checksums-Sha1:
+ ee4314b381077a706035b93d742f0c4287a290a1 1653 workspaces-default-settings_3.0.3ubuntu4.dsc
+ bcc4447813d44ba0c660683e7f230d56d5a86aef 40560 workspaces-default-settings_3.0.3ubuntu4.tar.xz
+ dfaff87afe05b48e36d0f91111900b7c610cb24e 6196 workspaces-default-settings_3.0.3ubuntu4_source.buildinfo
+Checksums-Sha256:
+ 5b6dc8bf92741d6776ed80150d727231c28aba60dab834cec255808ba65eb90b 1653 workspaces-default-settings_3.0.3ubuntu4.dsc
+ 2c0eecb4519b392e1017e0b10fd5157b0e685362348968cc0b9f6e1f4a1d1ac9 40560 workspaces-default-settings_3.0.3ubuntu4.tar.xz
+ 415a8b9c24ff210005038694d73bb9692b63b1766efc7d14b0189b41690b018d 6196 workspaces-default-settings_3.0.3ubuntu4_source.buildinfo
+Files:
+ ef157e70299c7b8fe2dcc673fad5b344 1653 x11 optional workspaces-default-settings_3.0.3ubuntu4.dsc
+ 2574ef0e2288f059c75a10ef0ae8dcb3 40560 x11 optional workspaces-default-settings_3.0.3ubuntu4.tar.xz
+ d1d660643d9e29aee1af8b3d70bd0437 6196 x11 optional workspaces-default-settings_3.0.3ubuntu4_source.buildinfo
+
+-----BEGIN PGP SIGNATURE-----
+
+iQIyBAEBCgAdFiEE1mN7EaBKs8vNXODr4dwtItTbNMgFAl42+10ACgkQ4dwtItTb
+NMilAg/3VxT+IQ6qxWXhzyhK6hK+HvMlyWa7yvIWz1ynR9lVvQPsO7lijAqAlNTW
+s4JdW/28OJlzx6EdUcjf9L+Z70udg3XKYII9Fy1+mS9k5BtxbWvQeeO/G3d4tlAO
++FLc4M3O0cOiuQdbs4wwkdBiCSOfy6EN4lPwJpLLXQM77ZuyY5gykWC5mG7UASRi
+cCR3EStC/A0RUcAxh/hK4WT67aV6INVurojP0UsZYoTFD9lmBCCIX5JNf8e8IfYe
+KknkK/6bx0YK4c62zIweT2sG8QS9d1Xwo4imu6+pBfjQIamd+XTNizmhihjKEpGv
+IMsft6c/6+3FbnLFauh4tgsyL6DWnrrp9jm+5fipdfA4xMNeqFQmeikwW79vA25v
+6XUt2WJltgkQ05qwqdQkrNlCXhTZEh/0ODK0nEoqyH8ItGZ/Xz+dTU8IZGrOYKuR
+1jA0AHrCbphFZ90JqyTl9V+DeeruIKqFWeA7mNyXfTkKKeOmV56KF1ehiKtI/igW
+Q8+EUW/4x3v2lJRgoGz3bz0GaTvykPopmNKVsNh0JTOWm3FqVdbD22s4U3inR2Ne
+4ER5RkauJKylPdl5F/4Ctz2A2BGw4UKJ5dKi2DVubg4Bg4INbaxt8Uue7sppFu0a
+QlYmZmv1kwVpVYP5EDerQRxFhXIgEaukXj7NY4Mjcw0s22NJCA==
+=VTkE
+-----END PGP SIGNATURE-----
