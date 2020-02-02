@@ -1,0 +1,13 @@
+NAME="Workspaces"
+VERSION="19.10"
+ID=workspaces
+ID_LIKE="ubuntu debian"
+PRETTY_NAME="Workspaces 19.10"
+VERSION_ID="19.10"
+HOME_URL="https://herculeaninc.com/workspaces"
+SUPPORT_URL="http://support.herculeaninc.com"
+BUG_REPORT_URL="https://github.com/workspaces/issues"
+PRIVACY_POLICY_URL="https://herculeaninc.com/privacy"
+VERSION_CODENAME=eoan
+UBUNTU_CODENAME=eoan
+LOGO=distributor-logo-pop-os

@@ -1,0 +1,39 @@
+#!/bin/bash
+
+set -e
+
+# Make sure this is in sync with postinst
+package=workspaces-default-settings
+diverts=(
+    "/etc/gdm3/custom.conf=/etc/workspaces/gdm3/custom.conf"
+    "/etc/lsb-release=/etc/workspaces/lsb-release"
+    "/etc/os-release=/etc/workspaces/os-release"
+    "/usr/lib/os-release=/etc/workspaces/os-release"
+)
+
+case "$1" in
+    remove)
+        for divert in "${diverts[@]}"
+        do
+            source="${divert%%=*}"
+            dest="${divert#*=}"
+
+            if [ "$(dpkg-divert --listpackage "$source")" == "$package" ]
+            then
+                if [ -L "$source" ]
+                then
+                    rm "$source"
+                fi
+
+                dpkg-divert --remove --package "$package" --rename --divert "$source.diverted" "$source"
+            fi
+        done
+        ;;
+
+    *)
+        ;;
+esac
+
+
+
+exit 0

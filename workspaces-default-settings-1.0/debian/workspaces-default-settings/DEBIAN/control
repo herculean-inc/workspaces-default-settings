@@ -1,0 +1,11 @@
+Package: workspaces-default-settings
+Version: 3.0.3ubuntu5
+Architecture: all
+Maintainer: Jeremy Soller <jeremy@system76.com>
+Installed-Size: 143
+Depends: dconf-gsettings-backend | gsettings-backend, base-files (>= 10), libglib2.0-bin, gnome-menus, gnupg, plymouth-theme-workspaces-basic, workspaces-session, workspaces-theme, workspaces-wallpapers, software-properties-common
+Section: x11
+Priority: optional
+Homepage: https://github.com/herculean-inc/workspaces-default-settings
+Description: default settings for the Workspaces desktop
+ This package contains the default settings used by Workspaces.

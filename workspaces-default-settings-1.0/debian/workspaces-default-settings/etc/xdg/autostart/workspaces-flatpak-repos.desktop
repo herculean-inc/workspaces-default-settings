@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=Application
+Encoding=UTF-8
+Name=Workspaces Flatpak Repos
+Comment=Add Workspaces flatpak repos to user
+Exec=workspaces-flatpak-repos
+Terminal=false
+Icon=folder
+NoDisplay=true
+StartupNotify=false
+Categories=System;Settings;

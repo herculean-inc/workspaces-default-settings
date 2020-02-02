@@ -1,0 +1,82 @@
+ dpkg-buildpackage -us -uc -ui
+dpkg-buildpackage: info: source package workspaces-default-settings
+dpkg-buildpackage: info: source version 3.0.3ubuntu5
+dpkg-buildpackage: info: source distribution eoan
+dpkg-buildpackage: info: source changed by Herculean Inc <hello@hercules.dev>
+ dpkg-source --before-build .
+dpkg-buildpackage: info: host architecture amd64
+ fakeroot debian/rules clean
+dh clean
+   dh_auto_clean
+	make -j8 clean
+make[1]: Entering directory '/home/christian/workspaces/workspaces-default-settings/workspaces-default-settings-1.0'
+rm -f etc/workspaces/lsb-release etc/workspaces/os-release
+make[1]: Leaving directory '/home/christian/workspaces/workspaces-default-settings/workspaces-default-settings-1.0'
+   dh_clean
+ dpkg-source -b .
+dpkg-source: warning: Version number suggests Ubuntu changes, but Maintainer: does not have Ubuntu address
+dpkg-source: warning: Version number suggests Ubuntu changes, but there is no XSBC-Original-Maintainer field
+dpkg-source: info: using source format '3.0 (native)'
+dpkg-source: info: building workspaces-default-settings in workspaces-default-settings_3.0.3ubuntu5.tar.xz
+dpkg-source: info: building workspaces-default-settings in workspaces-default-settings_3.0.3ubuntu5.dsc
+ debian/rules build
+dh build
+   dh_update_autotools_config
+   dh_autoreconf
+   dh_auto_configure
+   dh_auto_build
+	make -j8
+make[1]: Entering directory '/home/christian/workspaces/workspaces-default-settings/workspaces-default-settings-1.0'
+bash src/lsb-release.sh > etc/workspaces/lsb-release
+bash src/os-release.sh > etc/workspaces/os-release
+make[1]: Leaving directory '/home/christian/workspaces/workspaces-default-settings/workspaces-default-settings-1.0'
+   dh_auto_test
+   create-stamp debian/debhelper-build-stamp
+ fakeroot debian/rules binary
+dh binary
+   dh_testroot
+   dh_prep
+   dh_auto_install
+   dh_install
+   dh_installdocs
+   dh_installchangelogs
+   debian/rules override_dh_installgsettings
+make[1]: Entering directory '/home/christian/workspaces/workspaces-default-settings/workspaces-default-settings-1.0'
+dh_installgsettings --priority=50
+make[1]: Leaving directory '/home/christian/workspaces/workspaces-default-settings/workspaces-default-settings-1.0'
+   dh_icons
+   dh_perl
+   dh_link
+   dh_strip_nondeterminism
+   dh_compress
+   dh_fixperms
+   dh_missing
+   debian/rules override_dh_installdeb
+make[1]: Entering directory '/home/christian/workspaces/workspaces-default-settings/workspaces-default-settings-1.0'
+dh_installdeb
+cp debian/conffiles debian/workspaces-default-settings/DEBIAN/conffiles
+make[1]: Leaving directory '/home/christian/workspaces/workspaces-default-settings/workspaces-default-settings-1.0'
+   dh_gencontrol
+   dh_md5sums
+   dh_builddeb
+dpkg-deb: building package 'workspaces-default-settings' in '../workspaces-default-settings_3.0.3ubuntu5_all.deb'.
+ dpkg-genbuildinfo
+ dpkg-genchanges  >../workspaces-default-settings_3.0.3ubuntu5_amd64.changes
+dpkg-genchanges: info: including full source code in upload
+ dpkg-source --after-build .
+dpkg-buildpackage: info: full upload; Debian-native package (full source is included)
+Now running lintian workspaces-default-settings_3.0.3ubuntu5_amd64.changes ...
+W: workspaces-default-settings source: missing-license-paragraph-in-dep5-copyright gpl-3+ (paragraph at line 5)
+W: workspaces-default-settings source: ancient-standards-version 3.9.8 (released 2016-04-06) (current is 4.4.0)
+E: workspaces-default-settings: file-in-etc-not-marked-as-conffile etc/apt/preferences.d/workspaces-default-settings
+E: workspaces-default-settings: file-in-etc-not-marked-as-conffile etc/update-manager/release-upgrades.d/workspaces-default-settings.cfg
+E: workspaces-default-settings: file-in-etc-not-marked-as-conffile etc/workspaces/flatpak/flathub.flatpakrepo
+E: workspaces-default-settings: file-in-etc-not-marked-as-conffile etc/workspaces/lsb-release
+E: workspaces-default-settings: file-in-etc-not-marked-as-conffile etc/workspaces/os-release
+E: workspaces-default-settings: file-in-etc-not-marked-as-conffile etc/xdg/autostart/workspaces-app-folders.desktop
+E: workspaces-default-settings: file-in-etc-not-marked-as-conffile etc/xdg/autostart/workspaces-flatpak-repos.desktop
+W: workspaces-default-settings: copyright-without-copyright-notice
+E: workspaces-default-settings: package-installs-apt-preferences etc/apt/preferences.d/workspaces-default-settings
+W: workspaces-default-settings: binary-without-manpage usr/bin/workspaces-app-folders
+W: workspaces-default-settings: binary-without-manpage usr/bin/workspaces-flatpak-repos
+Finished running lintian.

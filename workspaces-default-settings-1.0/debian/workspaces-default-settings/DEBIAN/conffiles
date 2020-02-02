@@ -1,0 +1,2 @@
+/etc/workspaces/gdm3/custom.conf
+/etc/sysctl.d/10-workspaces-default-settings.conf
