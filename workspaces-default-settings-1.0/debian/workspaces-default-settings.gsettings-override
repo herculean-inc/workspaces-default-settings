@@ -28,8 +28,8 @@ sleep-inactive-battery-type = 'nothing'
 gtk-theme = "Workspaces"
 icon-theme = "Workspaces"
 cursor-theme = "Workspaces"
-font-name = "Roboto Light 11"
-document-font-name = "Roboto 11"
+font-name = "Roboto Light 10"
+document-font-name = "Roboto 10"
 monospace-font-name = "Fira Mono 11"
 clock-show-date=true
 clock-format = '12h'
@@ -39,7 +39,7 @@ theme-name = "Workspaces"
 
 [org.gnome.desktop.wm.preferences:GNOME-Greeter]
 theme = "Workspaces"
-titlebar-font = 'Roboto 11'
+titlebar-font = 'Roboto Medium 11'
 titlebar-uses-system-font = false
 
 ##################
