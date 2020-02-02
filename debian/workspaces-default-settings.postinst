@@ -3,12 +3,12 @@
 set -e
 
 # Make sure this is in sync with prerm
-package=pop-default-settings
+package=workspaces-default-settings
 diverts=(
-    "/etc/gdm3/custom.conf=/etc/pop-os/gdm3/custom.conf"
-    "/etc/lsb-release=/etc/pop-os/lsb-release"
-    "/etc/os-release=/etc/pop-os/os-release"
-    "/usr/lib/os-release=/etc/pop-os/os-release"
+    "/etc/gdm3/custom.conf=/etc/workspaces/gdm3/custom.conf"
+    "/etc/lsb-release=/etc/workspaces/lsb-release"
+    "/etc/os-release=/etc/workspaces/os-release"
+    "/usr/lib/os-release=/etc/workspaces/os-release"
 )
 
 ISO_KEY="-----BEGIN PGP PUBLIC KEY BLOCK-----
@@ -71,7 +71,7 @@ case "$1" in
             source="${divert%%=*}"
             dest="${divert#*=}"
 
-            dpkg-divert --add --package pop-default-settings --rename --divert "$source.diverted" "$source"
+            dpkg-divert --add --package workspaces-default-settings --rename --divert "$source.diverted" "$source"
 
             if [ -L "$source" -o ! -e "$source" ]
             then
@@ -80,6 +80,7 @@ case "$1" in
         done
 
         # Add Pop proprietary repo if it is missing.
+        # Add Workspaces repo later.
         RELEASE="$(lsb_release -cs)"
         REPO="deb http://apt.pop-os.org/proprietary ${RELEASE} main"
         if ! grep "${REPO}" /etc/apt/sources.list > /dev/null

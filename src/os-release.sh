@@ -17,3 +17,6 @@ VERSION_CODENAME=${VERSION_CODENAME}
 UBUNTU_CODENAME=${UBUNTU_CODENAME}
 LOGO=distributor-logo-pop-os
 EOF
+
+
+# TODO: Add Workspaces Logo

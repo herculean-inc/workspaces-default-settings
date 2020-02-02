@@ -21,11 +21,11 @@
   Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 
 -->
-<style-scheme id="pop-dark" _name="Pop Dark" version="1.0">
+<style-scheme id="workspaces-dark" _name="Workspaces Dark" version="1.0">
   <author>Ian Santopietro</author>
-  <_description>Color scheme using Pop color palette</_description>
+  <_description>Color scheme using Workspaces color palette</_description>
 
-  <!-- Pop Palette -->
+  <!-- Workspaces Palette -->
   <color name="yellow"       value="#ffce51"/>
   <color name="orange"       value="#faa41a"/>
   <color name="red"          value="#f15d22"/>

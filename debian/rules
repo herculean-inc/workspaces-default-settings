@@ -5,7 +5,7 @@ override_dh_installgsettings:
 
 override_dh_installdeb:
 	dh_installdeb
-	cp debian/conffiles debian/pop-default-settings/DEBIAN/conffiles
+	cp debian/conffiles debian/workspaces-default-settingss/DEBIAN/conffiles
 
 %:
 	dh $@

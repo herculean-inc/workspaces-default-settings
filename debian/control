@@ -1,23 +1,23 @@
-Source: pop-default-settings
+Source: workspaces-default-settings
 Section: x11
 Priority: optional
 Maintainer: Jeremy Soller <jeremy@system76.com>
 Uploaders: Ian Santopietro <ian@system76.com>
 Build-Depends: debhelper (>= 10)
 Standards-Version: 3.9.8
-Homepage: https://github.com/system76/pop-default-settings
+Homepage: https://github.com/herculean-inc/workspaces-default-settings
 
-Package: pop-default-settings
+Package: workspaces-default-settings
 Architecture: all
 Depends: ${misc:Depends},
          base-files (>= 10),
          libglib2.0-bin,
          gnome-menus,
          gnupg,
-         plymouth-theme-pop-basic,
-         pop-session,
-         pop-theme,
-         pop-wallpapers,
+         plymouth-theme-workspaces-basic,
+         workspaces-session,
+         workspaces-theme,
+         workspaces-wallpapers,
          software-properties-common,
-Description: default settings for the Pop desktop
- This package contains the default settings used by Pop.
+Description: default settings for the Workspaces desktop
+ This package contains the default settings used by Workspaces.

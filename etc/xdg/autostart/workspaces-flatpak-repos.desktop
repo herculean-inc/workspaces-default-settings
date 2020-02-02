@@ -1,9 +1,9 @@
 [Desktop Entry]
 Type=Application
 Encoding=UTF-8
-Name=Pop Flatpak Repos
-Comment=Add Pop flatpak repos to user
-Exec=pop-flatpak-repos
+Name=Workspaces Flatpak Repos
+Comment=Add Workspaces flatpak repos to user
+Exec=workspaces-flatpak-repos
 Terminal=false
 Icon=folder
 NoDisplay=true

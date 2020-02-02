@@ -3,12 +3,12 @@
 set -e
 
 # Make sure this is in sync with postinst
-package=pop-default-settings
+package=workspaces-default-settings
 diverts=(
-    "/etc/gdm3/custom.conf=/etc/pop-os/gdm3/custom.conf"
-    "/etc/lsb-release=/etc/pop-os/lsb-release"
-    "/etc/os-release=/etc/pop-os/os-release"
-    "/usr/lib/os-release=/etc/pop-os/os-release"
+    "/etc/gdm3/custom.conf=/etc/workspaces/gdm3/custom.conf"
+    "/etc/lsb-release=/etc/workspaces/lsb-release"
+    "/etc/os-release=/etc/workspaces/os-release"
+    "/usr/lib/os-release=/etc/workspaces/os-release"
 )
 
 case "$1" in

@@ -10,12 +10,12 @@ case "$GTK_THEME" in
     ;;
 esac
 
-if [ -e "${HOME}/.cache/pop-app-folders" ]
+if [ -e "${HOME}/.cache/workspaces-app-folders" ]
 then
     exit 0
 fi
 
-APP_FOLDER="org.gnome.desktop.app-folders.folder:/org/gnome/desktop/app-folders/folders/Pop"
+APP_FOLDER="org.gnome.desktop.app-folders.folder:/org/gnome/desktop/app-folders/folders/Workspaces"
 
 gsettings reset-recursively "${APP_FOLDER}-Office/"
 gsettings set "${APP_FOLDER}-Office/" name "Office.directory"
@@ -66,4 +66,4 @@ gsettings set "${APP_FOLDER}-Utility/" apps "[
 'yelp.desktop'
 ]"
 
-touch "${HOME}/.cache/pop-app-folders"
+touch "${HOME}/.cache/workspaces-app-folders"

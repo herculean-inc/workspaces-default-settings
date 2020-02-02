@@ -1,6 +1,6 @@
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
-Upstream-Name: pop-default-settings
-Source: https://github.com/system76/pop-default-settings
+Upstream-Name: workspaces-default-settings
+Source: https://github.com/herculean-inc/workspaces-default-settings
 
 Files: *
 Copyright: System76

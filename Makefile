@@ -1,10 +1,10 @@
-all: etc/pop-os/lsb-release etc/pop-os/os-release
+all: etc/workspaces/lsb-release etc/workspaces/os-release
 
-etc/pop-os/lsb-release: src/lsb-release.sh
+etc/workspaces/lsb-release: src/lsb-release.sh
 	bash $< > $@
 
-etc/pop-os/os-release: src/os-release.sh
+etc/workspaces/os-release: src/os-release.sh
 	bash $< > $@
 
 clean:
-	rm -f etc/pop-os/lsb-release etc/pop-os/os-release
+	rm -f etc/workspaces/lsb-release etc/workspaces/os-release

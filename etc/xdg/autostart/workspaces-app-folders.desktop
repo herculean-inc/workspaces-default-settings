@@ -1,9 +1,9 @@
 [Desktop Entry]
 Type=Application
 Encoding=UTF-8
-Name=Pop App Folders
-Comment=Create Pop application folders
-Exec=pop-app-folders
+Name=Workspaces App Folders
+Comment=Create Workspaces application folders
+Exec=workspaces-app-folders
 Terminal=false
 Icon=folder
 NoDisplay=true

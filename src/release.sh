@@ -1,12 +1,12 @@
 #!/bin/bash
 
 source /etc/os-release
-NAME="Pop!_OS"
+NAME="Workspaces"
 VERSION="${VERSION_ID}"
-ID="pop"
+ID="workspaces"
 ID_LIKE="ubuntu debian"
 PRETTY_NAME="${NAME} ${VERSION}"
-HOME_URL="https://system76.com/pop"
-SUPPORT_URL="http://support.system76.com"
-BUG_REPORT_URL="https://github.com/pop-os/pop/issues"
-PRIVACY_POLICY_URL="https://system76.com/privacy"
+HOME_URL="https://herculeaninc.com/workspaces"
+SUPPORT_URL="http://support.herculeaninc.com"
+BUG_REPORT_URL="https://github.com/workspaces/issues"
+PRIVACY_POLICY_URL="https://herculeaninc.com/privacy"
