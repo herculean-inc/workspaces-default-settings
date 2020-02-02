@@ -12,7 +12,7 @@ picture-uri = 'file:///usr/share/backgrounds/workspaces/mountains.jpg'
 picture-uri = 'file:///usr/share/backgrounds/workspaces/mountains.jpg'
 
 [org.gnome.desktop.session]
-session-name = "pop"
+session-name = "workspaces"
 
 [org.gnome.login-screen]
 logo = ''
