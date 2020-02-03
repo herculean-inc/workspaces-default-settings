@@ -6,7 +6,7 @@ Version: 3.0.3ubuntu6
 Maintainer: Herculean Inc <hello@hercules.dev>
 Uploaders: Herculean Inc <hello@hercules.dev>
 Homepage: https://github.com/herculean-inc/workspaces-default-settings
-Standards-Version: 1.0.0
+Standards-Version: 4.4.0.0
 Build-Depends: debhelper (>= 10)
 Package-List:
  workspaces-default-settings deb x11 optional arch=all

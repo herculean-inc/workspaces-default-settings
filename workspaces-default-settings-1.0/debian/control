@@ -4,7 +4,7 @@ Priority: optional
 Maintainer: Herculean Inc <hello@hercules.dev>
 Uploaders: Herculean Inc <hello@hercules.dev>
 Build-Depends: debhelper (>= 10)
-Standards-Version: 1.0.0
+Standards-Version: 4.4.0.0
 Homepage: https://github.com/herculean-inc/workspaces-default-settings
 
 Package: workspaces-default-settings
