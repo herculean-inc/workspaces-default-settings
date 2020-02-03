@@ -2,7 +2,7 @@ Format: 3.0 (native)
 Source: workspaces-default-settings
 Binary: workspaces-default-settings
 Architecture: all
-Version: 3.0.3ubuntu6
+Version: 3.0.3ubuntu7
 Maintainer: Herculean Inc <hello@hercules.dev>
 Uploaders: Herculean Inc <hello@hercules.dev>
 Homepage: https://github.com/herculean-inc/workspaces-default-settings
@@ -11,8 +11,8 @@ Build-Depends: debhelper (>= 10)
 Package-List:
  workspaces-default-settings deb x11 optional arch=all
 Checksums-Sha1:
- 4e5cdc1a4ba260d716c4781bfea72899609e8384 40664 workspaces-default-settings_3.0.3ubuntu6.tar.xz
+ 7859242a67ebfb5973deb60fa1d4c45298813590 40676 workspaces-default-settings_3.0.3ubuntu7.tar.xz
 Checksums-Sha256:
- 7a7a808005fdecdcf3cdab752f8db500dd800407d7933b267e2671a31c2994f4 40664 workspaces-default-settings_3.0.3ubuntu6.tar.xz
+ 4be8e58877fda3e5eaf0a7dcaf33a4678de9a146b544864f89cdd53a62ba89a7 40676 workspaces-default-settings_3.0.3ubuntu7.tar.xz
 Files:
- fbe0c1788ed065cb089af706566c7a1b 40664 workspaces-default-settings_3.0.3ubuntu6.tar.xz
+ 8ac291021ce96aca7f5c503a719d9580 40676 workspaces-default-settings_3.0.3ubuntu7.tar.xz

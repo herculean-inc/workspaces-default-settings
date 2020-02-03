@@ -1,6 +1,6 @@
  dpkg-buildpackage -us -uc -ui
 dpkg-buildpackage: info: source package workspaces-default-settings
-dpkg-buildpackage: info: source version 3.0.3ubuntu6
+dpkg-buildpackage: info: source version 3.0.3ubuntu7
 dpkg-buildpackage: info: source distribution eoan
 dpkg-buildpackage: info: source changed by Herculean Inc <hello@hercules.dev>
  dpkg-source --before-build .
@@ -17,8 +17,8 @@ make[1]: Leaving directory '/home/christian/workspaces/workspaces-default-settin
 dpkg-source: warning: Version number suggests Ubuntu changes, but Maintainer: does not have Ubuntu address
 dpkg-source: warning: Version number suggests Ubuntu changes, but there is no XSBC-Original-Maintainer field
 dpkg-source: info: using source format '3.0 (native)'
-dpkg-source: info: building workspaces-default-settings in workspaces-default-settings_3.0.3ubuntu6.tar.xz
-dpkg-source: info: building workspaces-default-settings in workspaces-default-settings_3.0.3ubuntu6.dsc
+dpkg-source: info: building workspaces-default-settings in workspaces-default-settings_3.0.3ubuntu7.tar.xz
+dpkg-source: info: building workspaces-default-settings in workspaces-default-settings_3.0.3ubuntu7.dsc
  debian/rules build
 dh build
    dh_update_autotools_config
@@ -59,16 +59,15 @@ make[1]: Leaving directory '/home/christian/workspaces/workspaces-default-settin
    dh_gencontrol
    dh_md5sums
    dh_builddeb
-dpkg-deb: building package 'workspaces-default-settings' in '../workspaces-default-settings_3.0.3ubuntu6_all.deb'.
+dpkg-deb: building package 'workspaces-default-settings' in '../workspaces-default-settings_3.0.3ubuntu7_all.deb'.
  dpkg-genbuildinfo
- dpkg-genchanges  >../workspaces-default-settings_3.0.3ubuntu6_amd64.changes
+ dpkg-genchanges  >../workspaces-default-settings_3.0.3ubuntu7_amd64.changes
 dpkg-genchanges: info: including full source code in upload
  dpkg-source --after-build .
 dpkg-buildpackage: info: full upload; Debian-native package (full source is included)
-Now running lintian workspaces-default-settings_3.0.3ubuntu6_amd64.changes ...
+Now running lintian workspaces-default-settings_3.0.3ubuntu7_amd64.changes ...
 W: workspaces-default-settings source: missing-license-paragraph-in-dep5-copyright gpl-3+ (paragraph at line 5)
 W: workspaces-default-settings source: maintainer-also-in-uploaders
-E: workspaces-default-settings source: invalid-standards-version 1.0.0
 E: workspaces-default-settings: file-in-etc-not-marked-as-conffile etc/apt/preferences.d/workspaces-default-settings
 E: workspaces-default-settings: file-in-etc-not-marked-as-conffile etc/update-manager/release-upgrades.d/workspaces-default-settings.cfg
 E: workspaces-default-settings: file-in-etc-not-marked-as-conffile etc/workspaces/flatpak/flathub.flatpakrepo

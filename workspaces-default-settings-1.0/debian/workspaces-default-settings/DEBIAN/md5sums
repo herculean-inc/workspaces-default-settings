@@ -9,7 +9,7 @@ de6b1915ef51e75b7ae822af796ed855  usr/bin/workspaces-app-folders
 49465b150c651086bbc673fe3c2cd8ef  usr/bin/workspaces-flatpak-repos
 17ec0cb32d36ab06ffaacc77c46ca55b  usr/lib/firefox/defaults/pref/workspaces-default-settings.js
 f5e328afd460dd72e9e696a1fbc5c7e7  usr/share/applications/workspaces-mimeapps.list
-107add0fd6072dcfa5abb78461e24d33  usr/share/doc/workspaces-default-settings/changelog.gz
+276c72f0ec7751cedfa25d753700f505  usr/share/doc/workspaces-default-settings/changelog.gz
 2d437ba3578334064c72cb7d293ff8c6  usr/share/doc/workspaces-default-settings/copyright
 d70f35c604bceeef125c4a2eb5b9af00  usr/share/glib-2.0/schemas/50_workspaces-default-settings.gschema.override
 788cfac84bbbe41dc7f8a84d6acad8ef  usr/share/gtksourceview-3.0/styles/workspaces-dark.xml

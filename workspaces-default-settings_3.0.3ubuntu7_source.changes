@@ -1,0 +1,45 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Sun, 02 Feb 2020 19:08:47 -0600
+Source: workspaces-default-settings
+Architecture: source
+Version: 3.0.3ubuntu7
+Distribution: eoan
+Urgency: medium
+Maintainer: Herculean Inc <hello@hercules.dev>
+Changed-By: Herculean Inc <hello@hercules.dev>
+Changes:
+ workspaces-default-settings (3.0.3ubuntu7) eoan; urgency=medium
+ .
+   * NEW VERSION
+Checksums-Sha1:
+ 7241c289d5cd25576f44d94f08dc21d731045491 1654 workspaces-default-settings_3.0.3ubuntu7.dsc
+ 1ac2d4c28e760197edcef8a2188ab5c6dcd8223f 40676 workspaces-default-settings_3.0.3ubuntu7.tar.xz
+ b06de63e98f4bd5bad02b3ae19d74d5fbcf0a18f 6196 workspaces-default-settings_3.0.3ubuntu7_source.buildinfo
+Checksums-Sha256:
+ d68fc010b6664cfb5986eb09e9bdbdf98d8689e6efc29af27805ed6a434c77e4 1654 workspaces-default-settings_3.0.3ubuntu7.dsc
+ b055958d656f580950053896270a4db925a3c3c385dfd02f4f2fe1a5574d3652 40676 workspaces-default-settings_3.0.3ubuntu7.tar.xz
+ 5995fd4bbb45b8eb98fade8dde142b464bd4ec2def4509ef23f7bccaee4729b5 6196 workspaces-default-settings_3.0.3ubuntu7_source.buildinfo
+Files:
+ 235b5416a930c8b92a665eb37768dd89 1654 x11 optional workspaces-default-settings_3.0.3ubuntu7.dsc
+ f05ce2abc9db8bd03bef7293b82613ff 40676 x11 optional workspaces-default-settings_3.0.3ubuntu7.tar.xz
+ a186bce829b146fac216d3357377b71a 6196 x11 optional workspaces-default-settings_3.0.3ubuntu7_source.buildinfo
+
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCgAdFiEE1mN7EaBKs8vNXODr4dwtItTbNMgFAl43cqAACgkQ4dwtItTb
+NMgxaw//eb6IeoRetpxWlAcs+moq0+4bbkfMXI4e45Hear2aGaLnV+rv2FbP5YUG
+hU1xa2odWp/yls47q3qf87M3kUDJnaCcl+jddOud2vyBNFn1jyPZEKojh3IrHkXc
+GkrjEPbSXPUWSXkv51GOBFiMXkzERx4TIpYxFgr91epSNegTu2TxHTBLfGJTJqEn
+bzXlzpbQh58lA0JWcDKn58o1lUokzkx5uNpztmug5ohPcsFgBJlRN8Jx/GehsG54
+HoqMUHJHjKHMNpDQy/9SrQ8BXzUxWx4p0b2kA5/v6Su4yYQp5OdN02IdlNukEVNC
+L2q45lJnLo0XURaYua9GCFKf9nhsECqLfuAy02gJfjejn1FtPLZ2MTP/M8I/+urN
+RktAHQspRJlcMsqgyMC9kpbriMEwRDWpcYybwMvH1rKLNdhYu2ZQNP7LtS7YXRFr
+mAP9Vmkr/zOphFdQZl+QXPC0lKljBJDtKoa7fbpZ31MgfUJ03U5aNCtXaqgHve+f
+4LYNtUS5Ovx06gAsxYh7ITdNlGz6pev3/Dv6R5QM5PMhOY24gyI5DIzY/dC0cw8h
+vuvsXt7fJ9qBBmHnE8C6kuvPSevrZ9MC6h6t4F/oOOoqZdChbClN6rX65JU3fFAI
+VkjvmNinuNY7ohp1GsRoDNHA30jI4QQGAcDhohj2MEsqxO9yx78=
+=WPuM
+-----END PGP SIGNATURE-----
