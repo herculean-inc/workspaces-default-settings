@@ -1,20 +1,20 @@
------BEGIN PGP SIGNED MESSAGE-----
-Hash: SHA512
-
 Format: 1.0
 Source: workspaces-default-settings
 Binary: workspaces-default-settings
-Architecture: source
-Version: 3.0.3ubuntu5
+Architecture: all source
+Version: 3.0.3ubuntu6
 Checksums-Md5:
- 9f91f510f1efff3fd66c27b6ecc52a8c 1653 workspaces-default-settings_3.0.3ubuntu5.dsc
+ 3af8b01cbf1d66790fd50733b689f93f 769 workspaces-default-settings_3.0.3ubuntu6.dsc
+ 4e250003cbcbae42e4aca6d39d955c88 31884 workspaces-default-settings_3.0.3ubuntu6_all.deb
 Checksums-Sha1:
- 50074cb472f0b9e627506db1717183ed6f3ff872 1653 workspaces-default-settings_3.0.3ubuntu5.dsc
+ b3af020f091444babb1b65b63c571f929f91a2e1 769 workspaces-default-settings_3.0.3ubuntu6.dsc
+ 62a1a83e2e741d56738951260ed28fa5496a7342 31884 workspaces-default-settings_3.0.3ubuntu6_all.deb
 Checksums-Sha256:
- d779f2a669eb0b633ed2183573b6be5bb9b393653fe973ac64381747ac7f7606 1653 workspaces-default-settings_3.0.3ubuntu5.dsc
+ 78fc8f479179923968cec13fd77351c2d07d119504071c5c70a5ffbfd2378f21 769 workspaces-default-settings_3.0.3ubuntu6.dsc
+ c47a24235913f73b8bf87cf0a6c1565fadf526b3501f86c7b78dbf1c6133461b 31884 workspaces-default-settings_3.0.3ubuntu6_all.deb
 Build-Origin: Ubuntu
 Build-Architecture: amd64
-Build-Date: Sun, 02 Feb 2020 12:18:45 -0600
+Build-Date: Sun, 02 Feb 2020 18:13:42 -0600
 Build-Tainted-By:
  merged-usr-via-symlinks
  usr-local-has-configs
@@ -171,21 +171,4 @@ Installed-Build-Depends:
 Environment:
  DEB_BUILD_OPTIONS="parallel=8"
  LANG="en_US.UTF-8"
- SOURCE_DATE_EPOCH="1580667525"
-
------BEGIN PGP SIGNATURE-----
-
-iQIzBAEBCgAdFiEE1mN7EaBKs8vNXODr4dwtItTbNMgFAl43EocACgkQ4dwtItTb
-NMg/DQ//Sd/4dWHvnvaaEOR2CxeX2JX7ebezyohA64jrk14fyaQvseOuyaiDF9KF
-8ZnyV8OIYKGBajKz+NPzoPl1IyJ0dhy53XwnPuxBOwMlCGTujqdErGGGaXkOF+rC
-KYrdSe1aCGmEY5ETD+OAc3axh34Ngq4I78/tMmpUdxW5pQ8hF+zUIugZ5mm3Pttu
-ya3oxB9ORdDjAwZ/11O0EJB+YDAkYv+GB28BkLtSdNs/S4OdKSP6VQyzHiwf8PhY
-1W8fw3ZUweDFEyFF0YOm7+nF6LUKabFnZf72kA+hI8v2VozqwZbpztOnoZeGXgPu
-I+GGV3kOCBJGrMx3ftyZBeuKhC5z8QgQ+obouIMJU33yNteH1a4ad5F8wh7iPLJo
-ikWCujFqaZ9T6hR7qWyPtwp0uzm9iKxRthGF/YSDm3OS/RLRQ4Csj6tOiVpYJ0iY
-7tTIzTy2DPBRX1cT1kn1t4GH1xqwJyl1sZTtMFzKdkJyNctO/penKLHqCKoP3y8M
-VcEU+7X/x2Qbxzjh5ZgLzdiI3CixyG5U3YeRP9ZXixdH7818irH8CYqGZeBL+ZWO
-cXOXkwabwNxKCRFxmKuXfeDxIis4gKY+ZJW927uWxgi2AvP4TV6xYIIvug8jYaUr
-2xPFdoNoNj7dJFfkj+0yIzW38VR6CV9+0EEekW0nYGKj5XFV3ng=
-=N3lj
------END PGP SIGNATURE-----
+ SOURCE_DATE_EPOCH="1580688793"

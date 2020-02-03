@@ -1,20 +1,20 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
 Format: 1.0
 Source: workspaces-default-settings
 Binary: workspaces-default-settings
-Architecture: all source
-Version: 3.0.3ubuntu5
+Architecture: source
+Version: 3.0.3ubuntu6
 Checksums-Md5:
- 2771d4e6daa5e6e0cf6419d37d9422f5 770 workspaces-default-settings_3.0.3ubuntu5.dsc
- c34a98a2c365a78228eadfe831e17b38 31852 workspaces-default-settings_3.0.3ubuntu5_all.deb
+ 93100425cf9bc83640a63050d02ae81d 1652 workspaces-default-settings_3.0.3ubuntu6.dsc
 Checksums-Sha1:
- a4d69f4f474a1d5c34d4319093f2c7d824078953 770 workspaces-default-settings_3.0.3ubuntu5.dsc
- 702b47ded09dc14e482da14db4a0dfb4949f1e80 31852 workspaces-default-settings_3.0.3ubuntu5_all.deb
+ 80bc636d6c5da04bffa5db99f82ff0b4c084eb78 1652 workspaces-default-settings_3.0.3ubuntu6.dsc
 Checksums-Sha256:
- b28c7e3d91d9ff31b0a98a7b818f082e522c78a9bdb66ffbe6e1bf5f23d6df16 770 workspaces-default-settings_3.0.3ubuntu5.dsc
- a65dd5aa73e805fa98ef63ce5e79f08b0292ab717a518d6caa023378441f31b9 31852 workspaces-default-settings_3.0.3ubuntu5_all.deb
+ 26bbacb398c3c4b228ef23236f61ba8a6c4c7f9edcf272cfd04a13119e2a06ca 1652 workspaces-default-settings_3.0.3ubuntu6.dsc
 Build-Origin: Ubuntu
 Build-Architecture: amd64
-Build-Date: Sun, 02 Feb 2020 12:18:56 -0600
+Build-Date: Sun, 02 Feb 2020 18:13:14 -0600
 Build-Tainted-By:
  merged-usr-via-symlinks
  usr-local-has-configs
@@ -171,4 +171,21 @@ Installed-Build-Depends:
 Environment:
  DEB_BUILD_OPTIONS="parallel=8"
  LANG="en_US.UTF-8"
- SOURCE_DATE_EPOCH="1580667525"
+ SOURCE_DATE_EPOCH="1580688793"
+
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCgAdFiEE1mN7EaBKs8vNXODr4dwtItTbNMgFAl43ZZoACgkQ4dwtItTb
+NMiIyg//VGtO86IcOHSrjmchd5jgAn1vMhphtpBDQhFbJgzXjUBEeuGHuPOVyfjA
+Txqp9OHHhMUbDNAihNLYmEtLU1Dcy4Iy7hmwNB/prWH8Loc0bCcjqrB3NMTT5hU0
+aq44R6v4ON8/+DGe2YymyVbmG9fPOuXrtXqwbgZxPtlEqQ5UGttE7i5aS5mfwtPO
+SwDg8dKWlVTK/2OfFfq2lged5fsz7Ov/p9+67wJFZ4b4K6AftwqlK9vOv4Wzty9R
+unkYdEpQaebQ7sMbfs7Jk9Gt1fdqrzR3GpJ5X7OUNG5QFaMPHgtKyQmcIUnKI2Xl
+WkYNXPfjneGZoJRPkKI2e/Z1zr+DWPRyqRtSSjUGM5a06QWgwzhlv3yLHZJTqzyI
+eBzX31KL0TgyiFAaVo6LBHl9fCQ4GKZu3VuNFDBuYZ9KgoRPwAAPrIN2vpgkgThA
+JC3ssXFuhxAEu3L0LfFf0Otllm8KdHcUCcc1cif/jbLak7sOaab3G3rLuVhCqYxv
+/r6i4oJTDLMFEr+/NpO2XDqYzx7kUaOBJtrjDvpIAwwqpey3J4mdIFdZAu2adXal
+RHgaD1k9P6XnEDioE6kUiiwGLSFCN516jCjNIcFeKDJeIr13zt2AR2nzK9/RlRGb
+vufoYDE3HbnySyVnQDUMqSbzuZZ9lQ4gPYO9L5ALr1aGKDD51rg=
+=pUa2
+-----END PGP SIGNATURE-----

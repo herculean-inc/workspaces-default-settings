@@ -1,10 +1,10 @@
 Source: workspaces-default-settings
 Section: x11
 Priority: optional
-Maintainer: Jeremy Soller <jeremy@system76.com>
-Uploaders: Ian Santopietro <ian@system76.com>
+Maintainer: Herculean Inc <hello@hercules.dev>
+Uploaders: Herculean Inc <hello@hercules.dev>
 Build-Depends: debhelper (>= 10)
-Standards-Version: 3.9.8
+Standards-Version: 1.0.0
 Homepage: https://github.com/herculean-inc/workspaces-default-settings
 
 Package: workspaces-default-settings

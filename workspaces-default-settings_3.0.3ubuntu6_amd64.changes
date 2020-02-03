@@ -1,0 +1,31 @@
+Format: 1.8
+Date: Sun, 02 Feb 2020 18:13:13 -0600
+Source: workspaces-default-settings
+Binary: workspaces-default-settings
+Architecture: source all
+Version: 3.0.3ubuntu6
+Distribution: eoan
+Urgency: medium
+Maintainer: Herculean Inc <hello@hercules.dev>
+Changed-By: Herculean Inc <hello@hercules.dev>
+Description:
+ workspaces-default-settings - default settings for the Workspaces desktop
+Changes:
+ workspaces-default-settings (3.0.3ubuntu6) eoan; urgency=medium
+ .
+   * NEW VERSION
+Checksums-Sha1:
+ b3af020f091444babb1b65b63c571f929f91a2e1 769 workspaces-default-settings_3.0.3ubuntu6.dsc
+ 4e5cdc1a4ba260d716c4781bfea72899609e8384 40664 workspaces-default-settings_3.0.3ubuntu6.tar.xz
+ 62a1a83e2e741d56738951260ed28fa5496a7342 31884 workspaces-default-settings_3.0.3ubuntu6_all.deb
+ 01b2a726ac60e1a8286af08dbdac8dd7401076d1 5621 workspaces-default-settings_3.0.3ubuntu6_amd64.buildinfo
+Checksums-Sha256:
+ 78fc8f479179923968cec13fd77351c2d07d119504071c5c70a5ffbfd2378f21 769 workspaces-default-settings_3.0.3ubuntu6.dsc
+ 7a7a808005fdecdcf3cdab752f8db500dd800407d7933b267e2671a31c2994f4 40664 workspaces-default-settings_3.0.3ubuntu6.tar.xz
+ c47a24235913f73b8bf87cf0a6c1565fadf526b3501f86c7b78dbf1c6133461b 31884 workspaces-default-settings_3.0.3ubuntu6_all.deb
+ a4c1f9d75429b1eaaacd33a6f0d857895575a91191cec369c72d946eaa6bff2d 5621 workspaces-default-settings_3.0.3ubuntu6_amd64.buildinfo
+Files:
+ 3af8b01cbf1d66790fd50733b689f93f 769 x11 optional workspaces-default-settings_3.0.3ubuntu6.dsc
+ fbe0c1788ed065cb089af706566c7a1b 40664 x11 optional workspaces-default-settings_3.0.3ubuntu6.tar.xz
+ 4e250003cbcbae42e4aca6d39d955c88 31884 x11 optional workspaces-default-settings_3.0.3ubuntu6_all.deb
+ 69e9a9915e80725afaaa56375bfd7466 5621 x11 optional workspaces-default-settings_3.0.3ubuntu6_amd64.buildinfo
